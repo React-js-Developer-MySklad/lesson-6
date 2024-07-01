@@ -18,7 +18,14 @@ for(const key in user) {
     console.log(`for key: ${key} is`, user[key])
 }
 //
-user.id = 123;
+user['id'] = 123;
 console.log(user.id)
+console.log(user)
 
+console.log('id' == id);
+
+console.log(id === secondId)
+
+
+// user.['1'] = 1;
 
